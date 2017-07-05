@@ -42,4 +42,5 @@ button.setAttribute("value", "en garde!")
 
 13. button.disabled = true;
 
-14.
+14. var info = document.querySelector('form')
+info.reset();
