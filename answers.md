@@ -1,8 +1,10 @@
+## part 1 ##
+
 1a. var image = document.querySelector('img')
 image.src = "https://placebear.com/400/400"
 
-1b. var image = document.querySelectorAll('#left-image')
-image.src = "https://placebear.com/325/255"
+1b. var pic = document.querySelectorAll('#left-image')
+pic.src = "https://placebear.com/325/255"
 ###
 
 2. var title = document.querySelector('h1')
@@ -44,3 +46,22 @@ button.setAttribute("value", "en garde!")
 
 14. var info = document.querySelector('form')
 info.reset();
+
+## part 2 ##
+
+1a. skills = document.querySelectorAll('.bar-default')
+skills = document.querySelectorAll('.bar-default')[2]
+timetravel = document.querySelector('#time-travel')
+skills.removeChild(timetravel)
+
+1b.
+
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
