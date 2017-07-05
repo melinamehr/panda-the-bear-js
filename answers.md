@@ -37,6 +37,9 @@ msg.setAttribute("placeholder", "state your business")
 11. var mail = document.querySelector('#email')
 mail.setAttribute("value", "koalathebear@gmail.com")
 
-12.
-13.
+12. var button = document.querySelector('#submit')
+button.setAttribute("value", "en garde!")
+
+13. button.disabled = true;
+
 14.
