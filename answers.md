@@ -3,16 +3,15 @@
 1a. var image = document.querySelector('img')
 image.src = "https://placebear.com/400/400"
 
-1b. var pic = document.querySelectorAll('#left-image')
+1b. var pic = document.querySelectorAll('#left-image.portfolio-image img')
 pic.src = "https://placebear.com/325/255"
 ###
 
 2. var title = document.querySelector('h1')
 title.innerText = "Melina"
 
-3. var title = document.querySelectorAll('h3')
-title[1]
-####
+3. heading = document.querySelector('h1.highlight')
+heading.innerText = 'Melina'
 
 4. var body = document.querySelector('body')
 body.style.color = "red"
