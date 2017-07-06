@@ -54,17 +54,13 @@ skills = document.querySelectorAll('.bar-default')[2]
 timetravel = document.querySelector('#time-travel')
 skills.removeChild(timetravel)
 
-1b. var pikachu = document.querySelector('#right-image')
-pikachu.cloneNode
+1b. var p5 = document.querySelector('#right-image')
+p5.cloneNode(true);
 var container = document.querySelector('.portfolio-container')
-container.appendChild(pikachu)
-VM2082:1 Uncaught DOMException: Failed to execute 'appendChild' on 'Node': The new child element contains the parent.
-    at <anonymous>:1:11
-### but other way around doesn't have error (yet still doesnt work/clone)
+container.appendChild(p5)
 
-2. for (var i=0; i < 10, i++) { var pikachu = document.querySelector('#left-image').cloneNode();
-container.appendChild(pikachu); }
-## syntax error (unexpected )
+2. for (var i=0; i < 10; i++) { var p5 = document.querySelector('#right-image').cloneNode(true);
+container.appendChild(p5); }
 
 3.
 var listItem = document.createElement('li');
