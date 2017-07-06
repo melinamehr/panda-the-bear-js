@@ -54,14 +54,27 @@ skills = document.querySelectorAll('.bar-default')[2]
 timetravel = document.querySelector('#time-travel')
 skills.removeChild(timetravel)
 
-1b.
+1b. var pikachu = document.querySelector('#right-image')
+pikachu.cloneNode
+var container = document.querySelector('.portfolio-container')
+container.appendChild(pikachu)
+VM2082:1 Uncaught DOMException: Failed to execute 'appendChild' on 'Node': The new child element contains the parent.
+    at <anonymous>:1:11
+### but other way around doesn't have error (yet still doesnt work/clone)
 
-2.
+2. for (var i=0; i < 10, i++) { var pikachu = document.querySelector('#left-image').cloneNode();
+container.appendChild(pikachu); }
+## syntax error (unexpected )
+
 3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+var listItem = document.createElement('li');
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+listItem.appendChild(leftSpan);
+var rightSpan = document.createElement('span');
+var now = new Date();
+rightSpan.appendChild(now);
+VM2861:1 Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at <anonymous>:1:11
+(anonymous) @ VM2861:1
