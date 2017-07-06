@@ -74,7 +74,7 @@ leftSpan.appendChild(lastUpdated);
 listItem.appendChild(leftSpan);
 var rightSpan = document.createElement('span');
 var now = new Date();
-rightSpan.appendChild(now);
-VM2861:1 Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
-    at <anonymous>:1:11
-(anonymous) @ VM2861:1
+var bioinfo = document.querySelector('.bio-info');
+bioinfo.appendChild(leftSpan);
+rightSpan.innerHTML = now
+bioinfo.appendChild(rightSpan);
